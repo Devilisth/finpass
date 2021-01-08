@@ -1,3 +1,31 @@
 body {
-  background: orange;
+  background: green;
+}
+
+button {
+  display: inline-block;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+  width: 32px;
+}
+
+#accountIcon {
+  background-color: transparent;
+  background-image: url("../public/images/dark_mode.png");
+  background-size: 32px 32px;
+  border: none;
+  height: 32px;
+  width: 32px;
+  margin: 3px;
+  outline: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.dark-mode {
+  background-color: #2e313b;
+  color: white;
 }
